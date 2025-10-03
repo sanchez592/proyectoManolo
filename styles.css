@@ -26,7 +26,7 @@ body {
   border-bottom: 1px solid var(--color-light);
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 2;
   box-shadow: 0 0 75px var(--color-accent)
 }
 .header-inner {
@@ -190,7 +190,7 @@ blockquote { font-style: italic; margin-bottom: 0.5rem; }
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.8s ease;
-    z-index: 9;
+    z-index: 4;
 }
 
 .nav.nav--show {
@@ -282,7 +282,7 @@ blockquote { font-style: italic; margin-bottom: 0.5rem; }
     align-items: center;
     padding: 0.1rem;
     position: relative;
-    z-index: 10;
+    z-index: 2;
 }
 
 .logoMarca{
