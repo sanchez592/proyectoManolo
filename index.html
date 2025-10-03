@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TechStore — Ofertas en Celulares y Computadores</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logoMarca" href="#">
+        <img src="assets/1758346168795.png" class="button__imgL" id="button__img">
+      </a>
+          
+    
+        
+        <div class="margenEncabezado">
+            <!--BOTONES-->
+
+            <div class="button__menu">
+                <img src="assets/menu.svg" class="button__img" id="button__img">
+            </div>
+            
+            <div class="button__search">
+                <img src="assets/search.svg" class="button__img" id="button__img">
+            </div>
+
+
+            <div class="button__carshop">
+                <img src="assets/carShop.svg" class="button__img" id="button__img">
+            </div>
+
+        </div>
+    </div>
+    </div>
+  </header>
+  <!-- SEARCH -->
+  <div class="search-bar" id="searchBar">
+    <input type="text" id="searchInput" placeholder="Buscar productos...">
+  </div>
+
+
+
+  <!-- MENU -->
+      <nav class="nav">
+
+        <div class="overlay"></div>
+
+        <ul class="list">
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/dashboard.svg" class="list__img">
+                    <a href="#" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/celular.svg" class="list__img">
+                    <a href="#" class="nav__link">Productos</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">name Cel</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">name Cel</a>
+                    </li>
+                </ul>
+
+            </li>
+
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/Login.svg" class="list__img">
+                    <a href="#" class="nav__link">login</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/we.svg" class="list__img">
+                    <a href="#" class="nav__link">Quienes Somos</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Mision</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Vision</a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/contactanos.svg" class="list__img">
+                    <a href="#" class="nav__link">Contacto</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <span class="kicker">NUEVO</span>
+        <h1>OFERTAS EXCLUSIVAS</h1>
+        <h2>Descubre las mejores ofertas en celulares y computadores</h2>
+        <p>Explora nuestra selección con descuentos increíbles. Calidad garantizada para todas tus necesidades tecnológicas.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#productos">Ver Ofertas</a>
+          <a class="btn ghost" href="#productos">Más Productos</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="assets/hero-placeholder.png" alt="Hero imagen — Celulares y computadores" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="productos" class="categories container">
+    <article class="card">
+      <img src="assets/celulares.png" alt="Celulares" />
+      <h3>Celulares de Última Generación</h3>
+      <p>Encuentra los smartphones más recientes con tecnología de punta.</p>
+      <a class="btn" href="#celulares">Ver Celulares</a>
+    </article>
+
+    <article class="card">
+      <img src="assets/computadores.png" alt="Computadores" />
+      <h3>Computadores Potentes</h3>
+      <p>Equipos de alto rendimiento para trabajo, estudio o gaming.</p>
+      <a class="btn" href="#computadores">Ver Computadores</a>
+    </article>
+
+    <article class="card">
+      <img src="assets/accesorios.png" alt="Accesorios" />
+      <h3>Accesorios Esenciales</h3>
+      <p>Audífonos, fundas y todo lo que complementa tus dispositivos.</p>
+      <a class="btn" href="#accesorios">Ver Accesorios</a>
+    </article>
+  </section>
+
+  <!-- BEST SELLERS -->
+  <section class="bestsellers container">
+    <h2>Productos Más Vendidos</h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <img src="assets/product1.png" alt="Celular de Última Generación" />
+        <h4>Celular de Última Generación</h4>
+        <p>Potencia y diseño innovador.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/product2.png" alt="Laptop de Alto Rendimiento" />
+        <h4>Laptop de Alto Rendimiento</h4>
+        <p>Ideal para trabajo y entretenimiento.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/product3.png" alt="Tablet Versátil" />
+        <h4>Tablet Versátil y Portátil</h4>
+        <p>Perfecta para el día a día.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/product4.png" alt="Smartwatch" />
+        <h4>Smartwatch con Funciones Avanzadas</h4>
+        <p>Mantente conectado y activo.</p>
+      </div>
+    </div>
+    <div class="center">
+      <a class="btn primary" href="#productos">Ver Más</a>
+    </div>
+  </section>
+
+  <!-- Testimonials carousel -->
+  <section class="testimonials container">
+    <h2>CLIENTES</h2>
+    <p>Nuestros clientes satisfechos</p>
+
+    <div class="carousel" id="testimonialsCarousel" aria-live="polite">
+      <div class="slide active">
+        <img class="avatar" src="assets/sofia.png" alt="Sofía García" />
+        <blockquote>Compré mi nuevo celular aquí y la experiencia fue increíble. ¡Muy recomendado!</blockquote>
+        <cite>Sofía García — Cliente Satisfecha</cite>
+      </div>
+
+      <div class="slide">
+        <img class="avatar" src="assets/juan.png" alt="Juan Pérez" />
+        <blockquote>Necesitaba una laptop potente para mi trabajo y la encontré aquí. La entrega fue rápida.</blockquote>
+        <cite>Juan Pérez — Profesional Independiente</cite>
+      </div>
+
+      <div class="slide">
+        <img class="avatar" src="assets/ana.png" alt="Ana López" />
+        <blockquote>La variedad de productos es excelente y los precios muy competitivos.</blockquote>
+        <cite>Ana López — Estudiante Universitaria</cite>
+      </div>
+
+      <div class="carousel-controls">
+        <button id="prevTest">‹</button>
+        <button id="nextTest">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contacto" class="contact container">
+    <h2>Contáctanos en TechStore</h2>
+    <p>Tenemos sucursales en las principales ciudades.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Oficina Central - Santiago</h3>
+        <p>Lunes a Viernes 9:00 am a 6:00 pm</p>
+      </div>
+      <div class="contact-card">
+        <h3>Sucursal Providencia</h3>
+        <p>Lunes a Viernes 10:00 am a 7:00 pm</p>
+      </div>
+      <div class="contact-card">
+        <h3>Tienda Online</h3>
+        <p>24/7 - Siempre a tu disposición</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-nav">
+        <a href="#">SOBRE NOSOTROS</a>
+        <a href="#">PREGUNTAS FRECUENTES</a>
+        <a href="#">GARANTÍA</a>
+        <a href="#">POLÍTICA DE PRIVACIDAD</a>
+      </nav>
+      <p class="copyright">COPYRIGHT © 2025 Wegic Inc. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
